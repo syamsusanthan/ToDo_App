@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#bg{
+   position: fixed;
+   height: 100%;
+   width: 100%; 
+      
+}
+.disabled{
+    pointer-events: none;
+   
+}
+.active1{
+    
+    color: black;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.grey{
+    color: grey;
+    margin-left: 2%;
+}
+.box{
+  margin: 10px;
+}
+.hov:hover{
+    background-color: rgb(61, 97, 255);
+
+}
+div.stick{
+   position: fixed;
+   top: 15%;
+   
+}
+#ig:hover{
+    border: 3px solid rgb(252, 248, 248);
+    border-radius: 4px;
+}
+#but{
+   color: white;
+   background-color: blue;
+  
+}
+#but:hover{
+    border: 2px solid white;
+    background-color:black;
+}

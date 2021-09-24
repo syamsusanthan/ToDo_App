@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <title>ToDo</title>
+    <link rel="stylesheet" href="do.css">
+</head>
+<body onload="response()" oninput="s()">
+    <img id="bg" src="imag/todobag.jpg" alt="">
+<div class="inside" style="position: relative;">
+    <audio id="mp3" autoplay></audio>
+<audio id="song" autoplay></audio>
+<audio id="del" autoplay></audio>
+   <nav class="nav nav-pills navbar-expand sticky-top" style="background-color: rgba(12, 14, 14, 0.733);">
+       <div class=" container navbar-nav ">
+           <a style=" color: white; margin: 10px; margin-left: 2%; padding-left: 20%; padding-right: 20%;" class="nav-item nav-link active" href="todo.html"> <b>ToDo List</b> </a>
+           <a style=" color: white; margin: 10px; margin-left: 4%; padding-left: 20%; padding-right: 20%;"class="nav-item hov nav-link" href="index.html"> <b>LogOut</b> </a>
+       </div>
+   </nav>
+   <div class=" container my-5 d-flex">
+       <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(243, 25, 9);">Your's&nbsp;List&nbsp;ToDo</h1>
+       <div style="margin-left: 52%; width: 37%; height: 14%; border-radius: 8px; font-size: larger; background-color: rgba(0, 0, 0, 0.671);" class="card stick">
+        <div class="container d-flex">
+            <img id="ig" onclick="select()" src="imag/icon copy.jpg" width="20%" height="80%" style="margin-top: 5px;">
+         <p style="color: rgb(14, 205, 253); margin-left: 15px; margin-top: 5%;" id="ptag">Complete Any Five Tasks</p><br>
+         <button id="but" style="margin-left: 15px; height: 40px; border-radius: 6px; width: 20%; margin-top: 5%;" type="submit" onclick="abc()">clear&nbsp;all</button>
+        </div>
+   </div>
+   </div>
+  
+   <div class="container" id="result_area"> </div>
+</div>   
+   <script src="scrippt.js"></script>
+</body>
+</html>
